@@ -6,7 +6,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 # S: Symbol that shows starting of decoding input
 # E: Symbol that shows starting of decoding output
