@@ -8,8 +8,8 @@ import torch.nn as nn
 import torch.optim as optim
 import matplotlib.pyplot as plt
 
-# S: Symbol that shows starting of decoding input
-# E: Symbol that shows starting of decoding output
+# S: Symbol that shows the start of decoding input
+# E: Symbol that shows the end of decoding output
 # P: Symbol that will fill in blank sequence if current batch data size is short than time steps
 
 def make_batch():
